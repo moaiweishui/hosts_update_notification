@@ -1,6 +1,7 @@
 # hosts_update_notification
 - 对[老D博客hosts更新页](https://laod.cn/hosts/2017-google-hosts.html)进行定时爬取，若检测到hosts文件有更新，则发送邮件至指定邮箱进行提醒
 - windows平台可以通过pyInstaller将python文件打包成exe文件，设置为定时任务，进行监控
+
 ## Introduction
 - Python 2.X
 
