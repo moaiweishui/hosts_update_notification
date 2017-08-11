@@ -1,5 +1,5 @@
 # hosts_update_notification
-When hosts file update, push notification
+对[老D博客hosts更新页](https://laod.cn/hosts/2017-google-hosts.html)进行定时爬取，若检测到hosts文件有更新，则发送邮件至指定邮箱进行提醒
 
 ## Introduction
 - Python 2.X
