@@ -1,2 +1,16 @@
 # hosts_update_notification
 When hosts file update, push notification
+
+## Introduction
+- Python 2.X
+- windows平台可以通过pyInstaller将python文件打包成exe文件，设置为定时任务，进行监控
+
+## Project framework
+- **main.py**：主函数
+- **get_update_info.py**：爬取hosts更新页面，获得更新日期
+- **push_update_info.py**：发送E-mail至指定邮箱
+- **content_parsing.py**：信息提取工具
+
+## Todo
+- [ ] 自动下载最新的hosts文件，并以附件的形式随邮件发送至目标邮箱
+- [ ] 代码重构
